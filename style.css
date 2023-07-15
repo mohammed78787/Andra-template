@@ -38,6 +38,12 @@ nav .navbar-toggler:focus {
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+@media(max-width: 600px) {
+    .landing {
+        background-image: url(img/pexels-18.webp);
+
+    }
+  }
 .landing .text {
     position: absolute;
     left: 50px;
@@ -45,6 +51,7 @@ nav .navbar-toggler:focus {
     color: white;
     font-weight: bold;
     font-size: 50px;
+    z-index: 3;
 }
 @media(max-width: 400px) {
     .landing .text {
@@ -272,7 +279,7 @@ top: 120px;
 }
 /* contact */
 .con-bgimg {
-    background-image: url(img/pexels-18.webp);
+    background-image: url(img/pexels-17.webp);
     height: 680px;
     position: relative;
     background-position: center;
