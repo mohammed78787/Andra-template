@@ -10,6 +10,13 @@ nav {
     background-color: #1b1b1b;
 
 }
+@media(max-width: 400px) {
+    nav .navbar-brand {
+width: 80px;    }
+nav .navbar-brand img{
+    width: 100%;    }
+      }
+
 nav ul li {
     margin-right: 20px;
 }
@@ -18,7 +25,7 @@ nav i {
     color: white;
     margin-right: 30px;
 }
-nav .navbar-toggler {
+nav .navbar-toggler:focus {
     box-shadow: none;
 }
 .navbar-brand {
@@ -42,6 +49,13 @@ nav .navbar-toggler {
 @media(max-width: 400px) {
     .landing .text {
 font-size: 30px;
+left: 15px;
+top: 120px;
+    }
+    .events .fixed-heading p {
+        color: #777;
+        width: 68%;
+        margin: auto;
     }
   }
 .landing .text span {
@@ -186,6 +200,9 @@ font-size: 30px;
     width: 100%;
     z-index: 1;
 } 
+.about .text-paddig {
+    padding: 20px;
+}
 .about .text {
     position: absolute;
     margin-left: 100px;
